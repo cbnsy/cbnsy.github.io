@@ -1,0 +1,69 @@
+<!-- Terence Abdon -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Terence Abdon</title>
+        <meta name="description" content="New Zealand Page">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+<body>
+
+<!-- This is the navigation bar and it's JavaScript below -->  
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active"><img src="img/logo.PNG" alt="logo" width="200px" height="38px"> </a>
+  <a href="achievements.html">ACHIEVEMENTS</a>
+  <a href="media.html">MEDIA</a>
+  <a href="aboutme.html">ABOUT ME</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    
+<!-- This is the main image for the achievements page, made sure that it's responsive -->      
+<div class="container">
+  <img src="img/achievements.JPG" alt="achievements" style="width:100%;" id="responsive-image"> 
+</div>
+            
+<div class = "center">
+<img src="img/teamone.jpg" alt="Team mates" width="365" height="365">
+<img src="img/teamtwo.jpg" alt="Team mates" width="365" height="365">
+<img src="img/teamthree.jpg" alt="Team mates" width="365" height="365">
+<img src="img/singleone.jpg" alt="Team mates" width="365" height="365">
+<img src="img/singletwo.jpg" alt="Team mates" width="365" height="365">
+<img src="img/singlethree.jpg" alt="Team mates" width="365" height="365">
+</div>
+    
+<!-- This is the text for the page, it holds some of Terence's achievements in basketball -->       
+<div class="ach_list">
+<h1>ACHIEVEMENTS</h1>
+<ul>
+  <li>- National Secondary School Champion: 2017, 2018</li>
+  <li>- National Secondary School Runner-up: 2019</li>
+  <li>- ISF World Basketball Champs: 6th Place</li>
+  <li>- Rep U19 National Champions: 2019</li>
+  <li>- U16 New Zealand Select Team: 2017</li>
+  <li>- New Zealand Junior Tall Black Pool of 25: 2019, 2020</li>
+  <li>- U17 Nationals 2018: 3rd Place</li>
+  <li>- U15 Nationals Runner-Up: 2015, 2016 </li>
+</ul>
+</div>  
+    
+</body>
+</html>
